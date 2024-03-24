@@ -7,7 +7,7 @@ public class mytest {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.zoho.com/");
+		driver.get("https://www.johnsonsbaby.com/");
 
 	}
 

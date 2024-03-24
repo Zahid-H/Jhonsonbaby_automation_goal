@@ -28,11 +28,11 @@ public class BaseTest {
 			WebDriver driver = new ChromeDriver();//base
 			driver.get(prop.getProperty("testurl"));//properties
 		}
-		if(prop.getProperty("browser").equalsIgnoreCase("chrome")){
+		else if(prop.getProperty("browser").equalsIgnoreCase("chrome")){
 			WebDriver driver = new FirefoxDriver();//base
 			driver.get(prop.getProperty("testurl"));//properties
 		}
-		if(prop.getProperty("browser").equalsIgnoreCase("chrome")){
+		else if(prop.getProperty("browser").equalsIgnoreCase("chrome")){
 			WebDriver driver = new EdgeDriver();//base
 			driver.get(prop.getProperty("testurl"));//properties
 		}	
